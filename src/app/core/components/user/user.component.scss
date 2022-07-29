@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+$oswald: 'Oswald', sans-serif;
+$merriweather: 'Merriweather Sans', sans-serif;
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.button{
+    width: 50%;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    font-family: $merriweather;
+    font-size: 10px;
+    background-color: gray;
+    border: 0;
+    border-radius: 12px;
+}
+
+.icon_button{
+    width: 10px;
+}
+
+.left-side{
+   background-color: rgb(33, 31, 31);
+  }
