@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +17,9 @@ import { CoreModule } from './core/core.module';
 import { UserComponent } from './core/components/user/user.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UserManualComponent } from './core/components/user-manual/user-manual.component';
+import { EventsComponent } from './core/components/events/events.component';
+import { ReviewComponent } from './core/components/review/review.component';
+import { TopicsComponent } from './core/components/topics/topics.component';
 
 
 @NgModule({
@@ -26,7 +31,10 @@ import { UserManualComponent } from './core/components/user-manual/user-manual.c
     SignupComponent,
     ForgotPasswordComponent,
     UserComponent,
-    UserManualComponent
+    UserManualComponent,
+    EventsComponent,
+    ReviewComponent,
+    TopicsComponent
   ],
 
   imports: [
@@ -36,7 +44,9 @@ import { UserManualComponent } from './core/components/user-manual/user-manual.c
     MatSidenavModule,
     MatIconModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
+
   ],
   exports:[
     UserComponent

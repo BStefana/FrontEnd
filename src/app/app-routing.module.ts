@@ -6,7 +6,8 @@ import { SignupComponent } from './core/components/signup/signup.component';
 import { ForgotPasswordComponent } from './core/components/forgot-password/forgot-password.component';
 import { UserManualComponent } from './core/components/user-manual/user-manual.component';
 import { EventsComponent } from './core/components/events/events.component';
-import { UserComponent } from './core/components/user/user.component';
+import { ReviewComponent } from './core/components/review/review.component';
+import { TopicsComponent } from './core/components/topics/topics.component';
 
 const routes: Routes = [
 
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path:'forgot-password', pathMatch: 'full', component: ForgotPasswordComponent},
   {path:'user-manual', pathMatch: 'full', component: UserManualComponent},
   {path:'events', pathMatch: 'full', component: EventsComponent},
-
+  {path:'review',pathMatch:'full',component:ReviewComponent},
+  {path:'topics',pathMatch:'full',component:TopicsComponent}
 
 ];
 
